@@ -1,0 +1,5 @@
+- Adicionar a pasta 'AdditionalFiles' à pasta do modelo que está sendo utilizado
+- Salvar a variável "Streamflow" como favorito na parte de 'Results' do WEAP
+	- parte de Results --> Supply and Resources > River > Streamflow --> Salvar como Favoritos
+- Executar o script
+- Geração de 400 arquivos csv com os resultados de vazão no nó indicado.

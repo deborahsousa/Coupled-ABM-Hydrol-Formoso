@@ -1,0 +1,361 @@
+{
+  "actors": [
+    {
+      "id": "867dad67-9e16-489a-b921-69d0ed90d4bb",
+      "text": "Autoridade regulatória nacional/local ",
+      "type": "istar.Actor",
+      "x": 578,
+      "y": 382,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "941826dc-f58b-4bdd-ac64-643c09ddfbec",
+      "text": "Regulador de recursos hídricos",
+      "type": "istar.Actor",
+      "x": 578,
+      "y": 128,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "6b3701af-1c84-475e-ad49-0c116408052a",
+          "text": "Prover recursos hídricos de forma sustentável",
+          "type": "istar.Goal",
+          "x": 644,
+          "y": 145,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7f121055-be12-4e1b-a7d6-af52a5d6d790",
+          "text": "Instrumentos regulatórios",
+          "type": "istar.Resource",
+          "x": 750,
+          "y": 262,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cc83b77a-f07a-470d-8f33-9b0d6a0bb730",
+          "text": "Regular o uso de água",
+          "type": "istar.Task",
+          "x": 666,
+          "y": 217,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ddc17e77-81e5-4af2-9255-751a1362eb01",
+      "text": "Usuário de água",
+      "type": "istar.Actor",
+      "x": 60,
+      "y": 128,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "d182f447-4d33-4d19-9354-998d5d856148",
+          "text": "Instrumentos regulatórios",
+          "type": "istar.Resource",
+          "x": 100,
+          "y": 276,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ddd1349d-d91a-422a-ac4c-8657e9e806bd",
+          "text": "Recurso hídrico",
+          "type": "istar.Resource",
+          "x": 205,
+          "y": 278,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "86167698-241d-4693-a2a4-856909b30ea4",
+          "text": "Usar água",
+          "type": "istar.Task",
+          "x": 153,
+          "y": 222,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "33bc64ff-ada4-4dc5-8888-4584d3df5375",
+          "text": "Atingir bem-estar",
+          "type": "istar.Goal",
+          "x": 156,
+          "y": 165,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "9836e4fb-b591-4403-9bf6-a43dbb1b943c",
+      "text": "Irrigante",
+      "type": "istar.Actor",
+      "x": 60,
+      "y": 360,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "6eee2954-5243-4e74-98f0-ad4ae9cc0cf6",
+          "text": "Gerar renda",
+          "type": "istar.Goal",
+          "x": 139,
+          "y": 366,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c86668d6-5579-474e-baae-7c2ee246df58",
+          "text": "Plantar a cultura",
+          "type": "istar.Task",
+          "x": 75,
+          "y": 487,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1313e4ba-5c9f-446b-ada7-51d1eb23a77d",
+          "text": "Irrigar a cultura",
+          "type": "istar.Task",
+          "x": 190,
+          "y": 489,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "08cef0fd-271d-44a8-aeb5-2653172446b4",
+          "text": "Vender cultivo",
+          "type": "istar.Task",
+          "x": 136,
+          "y": 433,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "6a0376a2-cfa4-42ec-8bb7-5e4b128e686b",
+      "text": "Instrumentos regulatórios",
+      "type": "istar.Resource",
+      "x": 340,
+      "y": 59,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "941826dc-f58b-4bdd-ac64-643c09ddfbec",
+      "target": "ddc17e77-81e5-4af2-9255-751a1362eb01"
+    },
+    {
+      "id": "b0eae96f-715e-4c11-9907-324759f745a4",
+      "text": "Atingir bem-estar",
+      "type": "istar.Goal",
+      "x": 356,
+      "y": 94,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "ddc17e77-81e5-4af2-9255-751a1362eb01",
+      "target": "941826dc-f58b-4bdd-ac64-643c09ddfbec"
+    },
+    {
+      "id": "f726aae3-85da-4c07-b117-43de320fda11",
+      "text": "Prover recursos hídricos de forma sustentável",
+      "type": "istar.Goal",
+      "x": 332,
+      "y": 135,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "941826dc-f58b-4bdd-ac64-643c09ddfbec",
+      "target": "ddc17e77-81e5-4af2-9255-751a1362eb01"
+    }
+  ],
+  "links": [
+    {
+      "id": "a33d706a-1119-4679-84af-cf8355970958",
+      "type": "istar.DependencyLink",
+      "source": "f726aae3-85da-4c07-b117-43de320fda11",
+      "target": "ddc17e77-81e5-4af2-9255-751a1362eb01"
+    },
+    {
+      "id": "82097c74-03b7-4541-b52b-d46c6c23716f",
+      "type": "istar.DependencyLink",
+      "source": "941826dc-f58b-4bdd-ac64-643c09ddfbec",
+      "target": "f726aae3-85da-4c07-b117-43de320fda11"
+    },
+    {
+      "id": "48b949fa-4430-4c67-a6a0-c7bc03dde454",
+      "type": "istar.DependencyLink",
+      "source": "b0eae96f-715e-4c11-9907-324759f745a4",
+      "target": "941826dc-f58b-4bdd-ac64-643c09ddfbec"
+    },
+    {
+      "id": "68e912bc-6c04-4dba-a121-76dd9a4f7848",
+      "type": "istar.DependencyLink",
+      "source": "ddc17e77-81e5-4af2-9255-751a1362eb01",
+      "target": "b0eae96f-715e-4c11-9907-324759f745a4"
+    },
+    {
+      "id": "1aa7a9fa-0c1d-4fdb-b5be-071ea66bfdd5",
+      "type": "istar.DependencyLink",
+      "source": "6a0376a2-cfa4-42ec-8bb7-5e4b128e686b",
+      "target": "ddc17e77-81e5-4af2-9255-751a1362eb01"
+    },
+    {
+      "id": "9af0a976-82bd-411d-b036-b8ba63940d8f",
+      "type": "istar.DependencyLink",
+      "source": "941826dc-f58b-4bdd-ac64-643c09ddfbec",
+      "target": "6a0376a2-cfa4-42ec-8bb7-5e4b128e686b"
+    },
+    {
+      "id": "f9b2ecbb-2f48-48ed-a8f1-28c853d09d93",
+      "type": "istar.NeededByLink",
+      "source": "d182f447-4d33-4d19-9354-998d5d856148",
+      "target": "86167698-241d-4693-a2a4-856909b30ea4"
+    },
+    {
+      "id": "0232590d-bda7-46a8-ad30-d3a46d7c8cc8",
+      "type": "istar.NeededByLink",
+      "source": "ddd1349d-d91a-422a-ac4c-8657e9e806bd",
+      "target": "86167698-241d-4693-a2a4-856909b30ea4"
+    },
+    {
+      "id": "490f3130-ecee-4119-83bc-c4c2f38a0043",
+      "type": "istar.AndRefinementLink",
+      "source": "86167698-241d-4693-a2a4-856909b30ea4",
+      "target": "33bc64ff-ada4-4dc5-8888-4584d3df5375"
+    },
+    {
+      "id": "cdf5c0aa-6ae9-47de-8c12-f28ce8eb7d72",
+      "type": "istar.AndRefinementLink",
+      "source": "c86668d6-5579-474e-baae-7c2ee246df58",
+      "target": "08cef0fd-271d-44a8-aeb5-2653172446b4"
+    },
+    {
+      "id": "893e3b68-dadc-4183-bae0-828492954d5f",
+      "type": "istar.AndRefinementLink",
+      "source": "1313e4ba-5c9f-446b-ada7-51d1eb23a77d",
+      "target": "08cef0fd-271d-44a8-aeb5-2653172446b4"
+    },
+    {
+      "id": "584a61b5-b97f-4d57-a320-e2639fb2a469",
+      "type": "istar.AndRefinementLink",
+      "source": "08cef0fd-271d-44a8-aeb5-2653172446b4",
+      "target": "6eee2954-5243-4e74-98f0-ad4ae9cc0cf6"
+    },
+    {
+      "id": "cfbf5970-af66-43cc-867f-fc7396a46375",
+      "type": "istar.ParticipatesInLink",
+      "source": "9836e4fb-b591-4403-9bf6-a43dbb1b943c",
+      "target": "ddc17e77-81e5-4af2-9255-751a1362eb01"
+    },
+    {
+      "id": "eea64816-4837-4f7e-b5a4-ce428cf3b371",
+      "type": "istar.AndRefinementLink",
+      "source": "cc83b77a-f07a-470d-8f33-9b0d6a0bb730",
+      "target": "6b3701af-1c84-475e-ad49-0c116408052a"
+    },
+    {
+      "id": "9439325a-603f-4a9c-9c53-71fffd78d62e",
+      "type": "istar.NeededByLink",
+      "source": "7f121055-be12-4e1b-a7d6-af52a5d6d790",
+      "target": "cc83b77a-f07a-470d-8f33-9b0d6a0bb730"
+    },
+    {
+      "id": "e79ab777-32ce-46a1-ac0c-8cf078056cfa",
+      "type": "istar.ParticipatesInLink",
+      "source": "867dad67-9e16-489a-b921-69d0ed90d4bb",
+      "target": "941826dc-f58b-4bdd-ac64-643c09ddfbec"
+    }
+  ],
+  "display": {
+    "941826dc-f58b-4bdd-ac64-643c09ddfbec": {
+      "backgroundColor": "#8EA500"
+    },
+    "6b3701af-1c84-475e-ad49-0c116408052a": {
+      "width": 147.609375,
+      "height": 48.84375
+    },
+    "7f121055-be12-4e1b-a7d6-af52a5d6d790": {
+      "backgroundColor": "#AB32CE"
+    },
+    "cc83b77a-f07a-470d-8f33-9b0d6a0bb730": {
+      "backgroundColor": "#83E5FA",
+      "width": 107.609375,
+      "height": 35.84375
+    },
+    "ddc17e77-81e5-4af2-9255-751a1362eb01": {
+      "backgroundColor": "#8EA500"
+    },
+    "d182f447-4d33-4d19-9354-998d5d856148": {
+      "backgroundColor": "#AB32CE"
+    },
+    "ddd1349d-d91a-422a-ac4c-8657e9e806bd": {
+      "backgroundColor": "#AB32CE"
+    },
+    "86167698-241d-4693-a2a4-856909b30ea4": {
+      "backgroundColor": "#83E5FA"
+    },
+    "9836e4fb-b591-4403-9bf6-a43dbb1b943c": {
+      "backgroundColor": "#8EA500"
+    },
+    "c86668d6-5579-474e-baae-7c2ee246df58": {
+      "backgroundColor": "#83E5FA"
+    },
+    "1313e4ba-5c9f-446b-ada7-51d1eb23a77d": {
+      "backgroundColor": "#83E5FA"
+    },
+    "08cef0fd-271d-44a8-aeb5-2653172446b4": {
+      "backgroundColor": "#83E5FA"
+    },
+    "6a0376a2-cfa4-42ec-8bb7-5e4b128e686b": {
+      "backgroundColor": "#AB32CE",
+      "width": 137.609375,
+      "height": 27.84375
+    },
+    "f726aae3-85da-4c07-b117-43de320fda11": {
+      "width": 132.0078125,
+      "height": 37.9140625
+    },
+    "867dad67-9e16-489a-b921-69d0ed90d4bb": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 19 Dec 2022 14:00:42 GMT",
+  "diagram": {
+    "width": 1368,
+    "height": 840,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

@@ -1,0 +1,38 @@
+Public Sub Teste()
+Set W = CreateObject("WEAP.WEAPApplication")
+
+For i = 1 To 400
+    W.Scenarios.Add "MySimulation" & i, "Current Accounts"
+Next
+
+For Each Scen In W.Scenarios
+    my_name = Scen.Name
+    my_index = Replace(my_name, "MySimulation", "")
+    If my_name <> "Current Accounts" And my_name <> "Reference" And my_index = 1 Then
+    
+        W.Scenarios.Item(Scen.Name).Activate
+        my_expression1 = "ReadFromFile" & "(Additional Files\MySimulation" & my_index & ".csv;2)"
+        my_expression2 = "ReadFromFile" & "(Additional Files\MySimulation" & my_index & ".csv;3)"
+        my_expression3 = "ReadFromFile" & "(Additional Files\MySimulation" & my_index & ".csv;4)"
+        W.Branch("\Demand Sites and Catchments\D1").Variables("Daily Demand").Expression = my_expression1
+        W.Branch("\Demand Sites and Catchments\D2").Variables("Daily Demand").Expression = my_expression2
+        W.Branch("\Demand Sites and Catchments\D3").Variables("Daily Demand").Expression = my_expression3
+        W.Calculate
+        W.ExportResults "Additional Files\" & Scen.Name & ".csv", True, True, True
+
+        
+    ElseIf my_name <> "Current Accounts" And my_name <> "Reference" And my_index <> 1 Then
+    
+        my_expression1 = "ReadFromFile" & "(Additional Files\TestvolumeDemand" & my_index & ".csv;2)"
+        W.Branch("\Demand Sites and Catchments\D1").Variables("Daily Demand").Expression = my_expression1
+        W.Calculate
+        W.ExportResults "Additional Files\" & Scen.Name & ".csv", True, True, True
+
+    End If
+    
+Next
+W.Calculate
+W.ExportResults "Additional Files\" & Scen.Name & ".csv", True, True, True
+
+End Sub
+

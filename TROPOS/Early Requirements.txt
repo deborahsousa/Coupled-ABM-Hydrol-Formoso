@@ -1,0 +1,172 @@
+{
+  "actors": [
+    {
+      "id": "941826dc-f58b-4bdd-ac64-643c09ddfbec",
+      "text": "Water Resources Regulator",
+      "type": "istar.Actor",
+      "x": 740,
+      "y": 285,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "6b3701af-1c84-475e-ad49-0c116408052a",
+          "text": "Goal",
+          "type": "istar.Goal",
+          "x": 812,
+          "y": 307,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f7f5876d-ceb4-46ea-bcae-7f6983fec020",
+          "text": "Task",
+          "type": "istar.Task",
+          "x": 742.5,
+          "y": 355,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "86cfdb77-5dc2-446c-91aa-e80cb2603672",
+          "text": "Task",
+          "type": "istar.Task",
+          "x": 846,
+          "y": 356,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ddc17e77-81e5-4af2-9255-751a1362eb01",
+      "text": "Water User",
+      "type": "istar.Actor",
+      "x": 193,
+      "y": 279,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "d182f447-4d33-4d19-9354-998d5d856148",
+          "text": "Resource",
+          "type": "istar.Resource",
+          "x": 251,
+          "y": 399,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "3b25dc93-45b5-46e8-ab81-f4eb4b4de1b6",
+      "text": "Regulatory instruments",
+      "type": "istar.Resource",
+      "x": 406,
+      "y": 226,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "941826dc-f58b-4bdd-ac64-643c09ddfbec",
+      "target": "ddc17e77-81e5-4af2-9255-751a1362eb01"
+    },
+    {
+      "id": "e28b4c9c-31ea-498b-a292-d424600344a1",
+      "text": "Reach welfare",
+      "type": "istar.Goal",
+      "x": 439,
+      "y": 315,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "ddc17e77-81e5-4af2-9255-751a1362eb01",
+      "target": "941826dc-f58b-4bdd-ac64-643c09ddfbec"
+    },
+    {
+      "id": "c2cf73e4-990c-4101-b39c-123c24bb4998",
+      "text": "Provide sustainable water resources",
+      "type": "istar.Goal",
+      "x": 419,
+      "y": 264,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "941826dc-f58b-4bdd-ac64-643c09ddfbec",
+      "target": "ddc17e77-81e5-4af2-9255-751a1362eb01"
+    }
+  ],
+  "links": [
+    {
+      "id": "3838b3a9-d2e7-42fc-be5c-1c4fc1e4669a",
+      "type": "istar.DependencyLink",
+      "source": "941826dc-f58b-4bdd-ac64-643c09ddfbec",
+      "target": "c2cf73e4-990c-4101-b39c-123c24bb4998"
+    },
+    {
+      "id": "e4131e4d-ca9f-4527-b84c-83fae8219ebe",
+      "type": "istar.DependencyLink",
+      "source": "c2cf73e4-990c-4101-b39c-123c24bb4998",
+      "target": "ddc17e77-81e5-4af2-9255-751a1362eb01"
+    },
+    {
+      "id": "79c3a447-9e89-49ba-b0a2-bd78550d38f6",
+      "type": "istar.DependencyLink",
+      "source": "ddc17e77-81e5-4af2-9255-751a1362eb01",
+      "target": "e28b4c9c-31ea-498b-a292-d424600344a1"
+    },
+    {
+      "id": "a5ddfcd5-7bd5-4a09-8e25-b21ae39e58af",
+      "type": "istar.DependencyLink",
+      "source": "e28b4c9c-31ea-498b-a292-d424600344a1",
+      "target": "941826dc-f58b-4bdd-ac64-643c09ddfbec"
+    },
+    {
+      "id": "9d278c3d-a225-4fe2-8377-225310bb32f4",
+      "type": "istar.DependencyLink",
+      "source": "3b25dc93-45b5-46e8-ab81-f4eb4b4de1b6",
+      "target": "ddc17e77-81e5-4af2-9255-751a1362eb01"
+    },
+    {
+      "id": "f03b4ce8-ef76-4247-9f33-82a89ca440e0",
+      "type": "istar.DependencyLink",
+      "source": "941826dc-f58b-4bdd-ac64-643c09ddfbec",
+      "target": "3b25dc93-45b5-46e8-ab81-f4eb4b4de1b6"
+    }
+  ],
+  "display": {
+    "941826dc-f58b-4bdd-ac64-643c09ddfbec": {
+      "collapsed": true
+    },
+    "ddc17e77-81e5-4af2-9255-751a1362eb01": {
+      "collapsed": true
+    },
+    "3b25dc93-45b5-46e8-ab81-f4eb4b4de1b6": {
+      "backgroundColor": "#AB32CE",
+      "width": 157.609375,
+      "height": 23.453125
+    },
+    "c2cf73e4-990c-4101-b39c-123c24bb4998": {
+      "width": 135.0078125,
+      "height": 37.9140625
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Fri, 06 May 2022 12:32:18 GMT",
+  "diagram": {
+    "width": 1130,
+    "height": 756,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
