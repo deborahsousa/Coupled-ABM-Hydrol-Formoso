@@ -1,0 +1,38 @@
+pump_number;rotulo;agent_name;land_owner;agent_number;behavior_group;demand_group;long;lat;area_irrig_GAN;area_irrig_corr
+1;URUBU - 038;São Bento;Carlos Antônio de Oliveira;1;CI;D1;-49.515946;-10.841826;400;400
+2;URUBU - 041;Fazenda Joia;Marcelo Carassa;2;NC;D1;-49.666954;-10.873199;0;0
+4;URUBU - 001;Fazenda Dona Carolina;Marcos Antônio Medeiros de Moura;3;NC;D1;-49.61889;-10.839177;900;900
+3;URUBU - 042;Fazenda Dona Carolina;Marcos Antônio Medeiros de Moura;3;NC;D1;-49.638924;-10.863574;900;900
+5;URUBU - 002;Faz São José I;Ildo Dalgalo;4;NC;D1;-49.553783;-10.83458;0;450
+6;URUBU - 003;Fazenda Porto Alegre;Ivan Santos Volpato;5;NC;D1;-49.695503;-10.844513;0;940
+7;URUBU - 004;Fazenda Porto Alegre;Ivan Santos Volpato;5;NC;D1;-49.69921;-10.844733;0;940
+8;URUBU - 005;Fazenda Bom Jesus;Vicente Ceolin;6;NC;D1;-49.609436;-10.853473;400;400
+9;URUBU - 006;Fazenda Boa Esperança;Ruben Ritter;7;CP;D1;-49.588825;-10.860864;544.88;544.88
+10;URUBU - 007;Fazenda Boa Esperança;Ruben Ritter;7;CP;D1;-49.598557;-10.867343;544.88;544.88
+11;URUBU - 008;Fazenda Vitória;Clever Teixeira de Andrade;8;CI;D1;-49.753574;-10.826344;192;192
+13;URUBU - 009;Fazenda Arco Íris;Luiz Antônio Santos Anjos;9;CI;D1;-49.587646;-10.870381;1180;1180
+12;URUBU - 010;Fazenda Arco Íris;Luiz Antônio Santos Anjos;9;CI;D1;-49.588757;-10.860949;1180;1180
+14;URUBU - 011;Fazenda Recanto Dourado;Reginaldo Pereira de Miranda;10;CI;D1;-49.71649;-10.829914;0;520
+15;URUBU - 012;Fazenda Estância do Lago;Waldir Miranda Pereira;11;CP;D1;-49.638912;-10.863696;450;450
+16;URUBU - 014;Fazenda Cheguei;Elder Paulo Zanfra;12;NC;D1;-49.609585;-10.853259;704;704
+17;URUBU - 015;Fazenda Fortaleza;Ricardo Fernandes;13;CI;D1;-49.666634;-10.872875;350;350
+18;URUBU - 040;Fazenda Fortaleza;Ricardo Fernandes;13;CI;D2;-49.666805;-10.872936;350;350
+19;URUBU - 016;Lago Verde;Enio Nogueira Becker;14;NC;D2;-49.42611;-10.78303;0;1587
+21;URUBU - 017;Lago Verde;Enio Nogueira Becker;14;NC;D2;-49.730613;-10.820501;0;1587
+23;URUBU - 020;Lago Verde;Enio Nogueira Becker;14;NC;D2;-49.676115;-10.863916;0;1587
+25;URUBU - 022;Lago Verde;Enio Nogueira Becker;14;NC;D2;-49.4633;-10.8149;0;1587
+20;URUBU - 018;Fazenda Santa Rita;José Alberti Oliveira Nunes;15;CI;D2;-49.730644;-10.820335;305;305
+22;URUBU - 019;Fazenda Santa Rita;José Alberti Oliveira Nunes;15;CI;D2;-49.746475;-10.808552;305;305
+24;URUBU - 021;Fazenda Santo Antônio I;Valdir de Sá;16;CI;D2;-49.746464;-10.808526;345;345
+26;URUBU - 023;Fazenda São João II;Valdecir de Sá;17;CP;D2;-49.74645;-10.808519;250;250
+27;URUBU - 025;Fazenda Nova Aliança II;João Gasparetto;18;NC;D2;-49.692554;-10.848582;240;240
+28;URUBU - 039;Fazenda São Miguel;João Gasparetto;19;NC;D2;-49.74763;-10.825519;0;0
+29;URUBU - 026;Fazenda Nova Aliança I;João Gasparetto;20;NC;D2;-49.693214;-10.855825;169;169
+31;URUBU - 031;Fazenda Luiza;Roberto Pahim;21;CP;D2;-49.67606;-10.863947;3200;3200
+30;URUBU - 032;Fazenda Luiza;Roberto Pahim;21;CP;D2;-49.688923;-10.860516;3200;3200
+32;URUBU - 030;Fazenda Progresso;Mauro Ivan Ramos Rodrigues;22;NC;D2;-49.710102;-10.834447;0;290
+33;URUBU - 033;Fazenda Tartaruga;Roberto Pahim;23;NC;D2;-49.753597;-10.826273;450;450
+35;URUBU - 034;Fazenda Tartaruga;Roberto Pahim;23;NC;D2;-49.792397;-10.832636;450;450
+34;URUBU - 037;Fazenda Tartaruga;Roberto Pahim;23;NC;D2;-49.792538;-10.83259;450;450
+36;URUBU - 035;Fazenda Santa Maria;Diamante Agrícola;24;NC;D3;-49.716698;-10.824729;500;500
+37;URUBU - 036;Fazenda Santa Maria;Diamante Agrícola;24;NC;D3;-49.72786;-10.819728;500;500

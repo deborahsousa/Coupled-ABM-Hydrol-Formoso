@@ -1,0 +1,25 @@
+farmer_id;propriedade ;profile;demand_group;nb_pumps;irrigation_area
+4;Faz São José I;NC;D1;1;450
+9;Fazenda Arco Íris;CI;D1;2;1180
+7;Fazenda Boa Esperança;CP;D1;2;544.88
+6;Fazenda Bom Jesus;NC;D1;1;400
+12;Fazenda Cheguei;NC;D1;1;704
+3;Fazenda Dona Carolina;NC;D1;2;900
+11;Fazenda Estância do Lago;CP;D1;1;450
+2;Fazenda Joia;NC;D1;1;
+5;Fazenda Porto Alegre;NC;D1;2;940
+10;Fazenda Recanto Dourado;CI;D1;1;520
+8;Fazenda Vitória;CI;D1;1;192
+1;São Bento;CI;D1;1;400
+13;Fazenda Fortaleza;CI;D2;2;350
+21;Fazenda Luiza;CP;D2;2;3200
+20;Fazenda Nova Aliança I;NC;D2;1;169
+18;Fazenda Nova Aliança II;NC;D2;1;240
+22;Fazenda Progresso;NC;D2;1;290
+15;Fazenda Santa Rita;CI;D2;2;305
+16;Fazenda Santo Antônio I;CI;D2;1;345
+17;Fazenda São João II;CP;D2;1;250
+19;Fazenda São Miguel;NC;D2;1;
+23;Fazenda Tartaruga;NC;D2;3;450
+14;Lago Verde;NC;D2;4;1587
+24;Fazenda Santa Maria;NC;D3;2;500
